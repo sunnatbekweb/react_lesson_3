@@ -1,0 +1,44 @@
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #FFFFFF;
+    box-shadow: 0 0 10px 1px #000000;
+
+    .nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 70px;
+
+        &__logo {
+            font-size: 32px;
+            font-weight: 700;
+            color: #000000;
+            transition: all 0.3s ease;
+
+            &:hover {
+                color: silver;
+            }
+        }
+
+        &__list {
+            display: flex;
+            column-gap: 60px;
+
+            &--item {
+                color: #000000;
+
+                &-link {
+                    color: #000000;
+                    font-size: 20px;
+                    transition: all 0.2s linear;
+
+                    &:hover {
+                        color: silver;
+                    }
+                }
+            }
+        }
+    }
+}

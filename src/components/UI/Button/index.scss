@@ -1,0 +1,36 @@
+.btn_wrapper {
+  display: flex;
+  gap: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+.btn-success {
+  background: #3a9069;
+  &:hover {
+    filter: brightness(80%);
+  }
+}
+.btn-primary {
+  background: #086dcc;
+  &:hover {
+    filter: brightness(80%);
+  }
+}
+.btn-danger {
+  background: #ef3d32;
+  &:hover {
+    filter: brightness(80%);
+  }
+}
+.btn-grey {
+  background: #cfcfcf;
+  &:hover {
+    filter: brightness(80%);
+  }
+}
